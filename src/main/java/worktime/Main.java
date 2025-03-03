@@ -2,9 +2,11 @@ package worktime;
 
 public class Main {
     public static void main(String[] args) {
-        Hania();
+        projName();
+        RegisterUser registerUser = new RegisterUser(null, null, 0, null);
+        registerUser.userRegisterMethod();
     }
-    public static void Hania(){
-        System.out.println("HElLO IN YOUR WORKAPPTIME");
+    public static void projName(){
+        System.out.println("WorkTime");
     }
 }
